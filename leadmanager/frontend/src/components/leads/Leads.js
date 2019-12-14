@@ -1,6 +1,8 @@
 import React, { Component, Fragment } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+
+// Actions
 import { getLeads, deleteLead } from '../../actions/leads';
 
 export class Leads extends Component {
